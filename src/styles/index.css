@@ -58,6 +58,38 @@ input:focus {
   outline: none;
 }
 
+
+.gradient-box,.all-farms-menu {
+  /* background: linear-gradient(to left, #b94386, #05FFEE); */
+  padding: 2rem;
+  border-radius: 5px;
+  color: #05FFEE !important;
+  background: linear-gradient( to right, #062533, #062533 ), linear-gradient(to right, #05FFEE, #b94386) !important;
+  background-clip: padding-box, border-box !important;
+  background-origin: padding-box, border-box !important;
+}
+
+.tezern-btn{
+  background-color: #062533 !important;
+  border-radius: 5px;
+  background: linear-gradient( to right, #161522, #161522 ), linear-gradient(to right, #05FFEE, #b94386) !important;
+  background-clip: padding-box, border-box !important;
+  background-origin: padding-box, border-box !important;
+}
+
+.text-purple{
+  color: #b94386 !important;
+}
+
+.nav, .search, .farm-list,.all-farms-menu {
+  background-color: #062533 !important;
+}
+
+.search:focus{
+  background-color: #062533 !important;
+  color: #05FFEE;
+}
+
 /* *::-webkit-scrollbar {
   width: var(--scrollbar-width);
 }
