@@ -27,11 +27,6 @@ module.exports = {
           'dark-900': '#161522',
           'dark-800': '#202231',
           'dark-pink-red': '#4e3034',
-          'blue-900': '#063245',
-          'blue-500': '#062533',
-          'gray-200': '#e7d6f983',
-          'blue-200': '#05FFEE',
-          'purple-900': '#b94386',
         },
         border: {
           1: '1px',

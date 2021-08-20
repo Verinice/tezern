@@ -46,7 +46,7 @@ const FarmListItem = ({ farm, ...rest }) => {
                   {farm?.rewards?.map((reward, i) => (
                     <div key={i} className="flex items-center">
                       <Image
-                        src={reward.icon}
+                        src="/logo.png"
                         width="30px"
                         height="30px"
                         className="rounded-md"
